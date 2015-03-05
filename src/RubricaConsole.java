@@ -7,11 +7,11 @@ import java.util.Scanner;
 import java.util.Vector;
 
 
-public class Rubrica {
+public class RubricaConsole {
 	private Vector<Persona> rubrica;
 	private Scanner scan;
 	
-	public Rubrica() {
+	public RubricaConsole() {
 		rubrica=new Vector<Persona>();
 		scan = new Scanner(System.in);
 	}
